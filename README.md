@@ -18,7 +18,7 @@ Requirements:
 
 The pipeline has been tested in ubuntu 24.04.2 LTS and is functional with the versions provided. Please, bear in mind that some changes and bugs might occur if other versions are used. 
 
-======================
+
 INSTRUCTIONS
 ======================
 

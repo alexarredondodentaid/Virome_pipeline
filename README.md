@@ -18,9 +18,9 @@ Requirements:
 
 The pipeline has been tested in ubuntu 24.04.2 LTS and is functional with the versions provided. Please, bear in mind that some changes and bugs might occur if other versions are used. 
 
-=================================================================================
+======================
 INSTRUCTIONS
-=================================================================================
+======================
 
 1) Place the script in the folder that contains all the .fastq files.
 2) Check the code for the correct path to the folder that will be created (lines 13 to 18)

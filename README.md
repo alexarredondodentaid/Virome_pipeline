@@ -2,19 +2,19 @@ This pipeline should allow to identify viral contigs within paired reads obtaine
 
 Requirements:
 
-· Anaconda or miniconda.
-· The following programs installed in separate conda environments:
-  · VirSorter2 (https://github.com/jiarong/VirSorter2) version 2.2.4
-  · Bowtie2 (https://www.metagenomics.wiki/tools/bowtie2/install) version 2.5.4
-  · CheckV (https://anaconda.org/channels/bioconda/packages/checkv/overview) version 1.0.3
-  · Cutadapt (https://cutadapt.readthedocs.io/en/stable/) version 2.6
-  · DeepVirFinder (https://github.com/jessieren/DeepVirFinder) version 1.0
-  · Genomad (https://anaconda.org/channels/bioconda/packages/genomad/overview) version 1.11.2
-  · Kneaddata (https://github.com/biobakery/kneaddata) version 0.12.3
-  · Prodigal (https://github.com/hyattpd/Prodigal) version 2.6.3
-  · Seqkit (https://github.com/shenwei356/seqkit) version 2.3.0
-  · FeatureCounts (https://rnnh.github.io/bioinfo-notebook/docs/featureCounts.html) version 2.1.1
-  · SPAdes (https://ablab.github.io/spades/) version 4.2.0
+- Anaconda or miniconda.
+- The following programs installed in separate conda environments:
+   - VirSorter2 (https://github.com/jiarong/VirSorter2) version 2.2.4
+   - Bowtie2 (https://www.metagenomics.wiki/tools/bowtie2/install) version 2.5.4
+   - CheckV (https://anaconda.org/channels/bioconda/packages/checkv/overview) version 1.0.3
+   - Cutadapt (https://cutadapt.readthedocs.io/en/stable/) version 2.6
+   - DeepVirFinder (https://github.com/jessieren/DeepVirFinder) version 1.0
+   - Genomad (https://anaconda.org/channels/bioconda/packages/genomad/overview) version 1.11.2
+   - Kneaddata (https://github.com/biobakery/kneaddata) version 0.12.3
+   - Prodigal (https://github.com/hyattpd/Prodigal) version 2.6.3
+   - Seqkit (https://github.com/shenwei356/seqkit) version 2.3.0
+   - FeatureCounts (https://rnnh.github.io/bioinfo-notebook/docs/featureCounts.html) version 2.1.1
+   - SPAdes (https://ablab.github.io/spades/) version 4.2.0
 
 The pipeline has been tested in ubuntu 24.04.2 LTS and is functional with the versions provided. Please, bear in mind that some changes and bugs might occur if other versions are used. 
 

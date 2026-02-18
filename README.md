@@ -23,9 +23,9 @@ INSTRUCTIONS
 ======================
 
 1) Place the script in the folder that contains all the .fastq files.
-2) Check the code for the correct path to the folder that will be created (lines 13 to 18)
-3) Check the number of threads and memory that you want to allocate to the pipeline (lines 20 and 21)
-4) Check that your conda installation is in the right path. If not, modify it (line 30)
+2) Check the code for the correct path to the folder that will be created (lines 13 to 18).
+3) Check the number of threads and memory that you want to allocate to the pipeline (lines 20 and 21).
+4) Check that your conda installation is in the right path. If not, modify it (line 30).
 5) Check the extension of your files, if it is .fastq.gz everything is ok, if not, change line 44 to let the loop choose the files properly.
-6) Check the code as a guide to name the conda environments (lines 65, 81, 121, 141, 167, 185, 197, and 214)
-7) The result of the pipeline are two main files in the folder 
+6) Check the code as a guide to name the conda environments (lines 65, 81, 121, 141, 167, 185, 197, and 214).
+7) The result of the pipeline are two main files in the folder /Mapped_res/SAMPLE_NAME/ and are called "gene_counts_matrix.txt" and "SAMPLE_NAME_counts.txt".

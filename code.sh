@@ -131,7 +131,7 @@ for R1 in *_1.fastq.gz; do # revisar l'extensió dels arxius a utilitzar
     # --keep-original-seq manté les seqüències originals dels contigs en els resultats. 
     # -j indica el nombre de fils a utilitzar.
     virsorter run -w "temp_vs2_${SAMPLE}" -i "$CONTIGS" --min-length 1000 \
-        --include-groups dsDNAphage,ssDNA,RNA --keep-original-seq -j "$THREADS" >> "$LOG_FILE" 2>&1
+        --include-groups dsDNAphage,ssDNA --keep-original-seq -j "$THREADS" >> "$LOG_FILE" 2>&1
     
     # VirSorter2 genera un fitxer final-viral-score.tsv on es poden filtrar els contigs virals segons el seu score i altres criteris. 
     # En aquest cas, es seleccionen els contigs que tenen un score de 0.9 o superior, almenys 1000 bases de longitud, i que compleixen altres criteris de qualitat (columnes 7 i 8).
